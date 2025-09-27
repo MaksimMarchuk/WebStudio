@@ -1,3 +1,7 @@
+body {
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
   text-decoration: none;
@@ -14,6 +18,11 @@ ul {
 
 .webstudio-text {
   padding-left: 215px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 3%;
 }
 
 .nav-text-one {
@@ -22,6 +31,12 @@ ul {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 2%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  margin-top: 20px;
 }
 
 .nav-text-two {
@@ -30,6 +45,12 @@ ul {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 2%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  margin-top: 20px;
 }
 
 .nav-text-three {
@@ -38,18 +59,26 @@ ul {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 2%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  margin-top: 20px;
 }
 
 .nav-gmail-img {
   padding-top: 13px;
   padding-left: 280px;
   padding-right: 11px;
+  margin-top: 20px;
 }
 
 .nav-phone-img {
   padding-top: 13px;
   padding-right: 7px;
   padding-left: 40px;
+  margin-top: 20px;
 }
 
 .nav-gmail {
@@ -57,6 +86,7 @@ ul {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 2%;
+  margin-top: 20px;
 }
 
 .nav-phone {
@@ -64,6 +94,7 @@ ul {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 2%;
+  margin-top: 20px;
 }
 
 .main-img-container {
@@ -111,7 +142,7 @@ ul {
 .features-container {
   display: flex;
   margin-left: 215px;
-  margin-top: 70px;
+  margin-top: 150px;
   width: 1170px;
   justify-content: space-between;
 }
@@ -147,6 +178,7 @@ ul {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 40px;
+  margin-top: 150px;
 }
 
 .team-text {
@@ -159,6 +191,7 @@ ul {
   line-height: 100%;
   letter-spacing: 3%;
   text-align: center;
+  margin-top: 150px;
 }
 
 .team-container {
@@ -179,11 +212,11 @@ ul {
   margin-left: 65px;
 }
 
-.container-text-three{
+.container-text-three {
   margin-left: 100px;
 }
 
-.container-text-four{
+.container-text-four {
   margin-left: 100px;
 }
 
@@ -197,4 +230,91 @@ ul {
 
 .soc-link-press {
   margin-left: 35px;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.clients-container {
+  margin-bottom: 150px;
+}
+
+.constantly-clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.footer-container {
+  background-color: #2f303a;
+  height: 252px;
+  display: flex;
+  align-items: center;
+}
+
+.list-footer-one {
+  list-style: none;
+  margin-left: 215px;
+}
+
+.list-footer-two {
+  margin-left: 100px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #ffffff99;
+}
+
+.footer-main-text {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 3%;
+}
+
+.blue {
+  color: rgb(0, 89, 255);
+  text-decoration: none;
+}
+
+.white {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text-nextmain {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.label-one {
+  position: absolute;
+  margin-right: 800px;
+  margin-top: 225px;
+}
+
+.label-two {
+  position: absolute;
+  margin-top: 225px;
+}
+
+.label-three {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 225px;
 }
