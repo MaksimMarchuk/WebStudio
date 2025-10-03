@@ -14,7 +14,7 @@
             <li class="webstudio-text"><p><a href="#" class="blue">Web</a>Studio</p></li>
             <li class="nav-text-one"><p class="blue">Студія</p></li>
             <li class="nav-text-two"><p>Портфоліо</p></li>
-            <li class="nav-text-three"><p>Контакти</p></li>
+            <li class="nav-text-three"><button class="contacts-button" data-modal-open>Контакти</button></li>
             <li class="nav-gmail-img">
               <svg
                 width="16"
@@ -507,5 +507,60 @@
 </li>
       </ul>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn-close" data-modal-close>&times;</button>
+            <h2 class="blank-main-text">Залиште свої дані, ми вам передзвонимо</h2>
+            <form>
+                <label>
+                  <div class="blank-columns">
+                    <a>Ім'я:</a>
+                    <div class="name-blank">
+                      <img src="./images/name-blank-img.webp" alt="name">
+                      <input type="text" name="name" required placeholder="" class="blank-input">
+                    </div>
+                  </div>
+                </label>
+                <label>
+                  <div class="blank-columns">
+                    <a>Телефон:</a>
+                    <div class="phone-blank">
+                      <img src="./images/phone-blank-img.webp" alt="phone" class="phone-img">
+                      <input type="email" name="email" required placeholder=""class="blank-input">
+                    </div>
+                  </div>
+                </label>
+                <label>
+                  <div class="blank-columns">
+                    <a>Пошта:</a>
+                    <div class="email-blank">
+                      <img src="./images/email-blank-img.webp" alt="email">
+                      <input type="tel" name="phone" pattern="^\+380\d{9}$" required placeholder="" class="blank-input">
+                    </div>
+                  </div>
+                </label>
+                <label>
+                  <div class="blank-columns">
+                    <a>Коментар:</a>
+                    <div class="text-blank">
+                      <textarea name="message" placeholder="Введіть текст" class="text-blank-input"></textarea>
+                    </div>
+                  </div>
+                </label>
+                <label>
+                  <div class="blank-columns">
+                    <div class="agree-part">
+                      <input type="checkbox">
+                      <a class="agree-text">Погоджуюся з розсилкою та приймаю Умови договору</a>
+                    </div>
+                  </div>
+                </label>
+                <div class="subbmit-container">
+                  <button type="submit" class="btns-subbmit">Відправити</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="modal.js"></script>
   </body>
 </html>
