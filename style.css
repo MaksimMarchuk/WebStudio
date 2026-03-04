@@ -25,6 +25,10 @@ ul {
   letter-spacing: 3%;
 }
 
+.cursor{
+  cursor: pointer;
+}
+
 .nav-text-one {
   padding-left: 115px;
   font-weight: 500;
@@ -37,7 +41,6 @@ ul {
   line-height: 100%;
   letter-spacing: 2%;
   margin-top: 20px;
-  cursor: pointer;
 }
 
 .nav-text-two {
@@ -52,7 +55,6 @@ ul {
   line-height: 100%;
   letter-spacing: 2%;
   margin-top: 20px;
-  cursor: pointer;
 }
 
 .nav-text-three {
@@ -288,6 +290,7 @@ ul {
 .blue {
   color: rgb(0, 89, 255);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .white {
@@ -482,4 +485,14 @@ input {
 .subbmit-container {
   display: flex;
   justify-content: center;
+}
+
+.buy-btn{
+  cursor: pointer;
+  transition-property: scale;
+  transition-duration: 1s;
+}
+
+.buy-btn:hover{
+  scale: 1.25;
 }
