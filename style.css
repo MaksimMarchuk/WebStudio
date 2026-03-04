@@ -2,6 +2,38 @@ body {
   margin: 0 auto;
 }
 
+h1{
+  cursor: default;
+}
+
+h2{
+  cursor: default;
+}
+
+h3{
+  cursor: default;
+}
+
+h4{
+  cursor: default;
+}
+
+h5{
+  cursor: default;
+}
+
+h6{
+  cursor: default;
+}
+
+p{
+  cursor: default;
+}
+
+a{
+  cursor: default;
+}
+
 ul {
   list-style: none;
   text-decoration: none;
@@ -145,10 +177,29 @@ ul {
 
 .features-container {
   display: flex;
-  margin-left: 215px;
+  justify-content: center;
   margin-top: 150px;
-  width: 1170px;
+  padding-left: 5%;
+  padding-right: 5%;
   justify-content: space-between;
+  gap: 30px;
+}
+
+.features-container >ul{
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgb(219, 219, 219, 0.6);
+}
+
+.features-container >ul:hover{
+  transform: translateY(-10px);
+  background-color: rgb(219, 219, 219, 0.9);
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.5);
+
 }
 
 .features-container > ul > li > p {
@@ -196,11 +247,27 @@ ul {
   letter-spacing: 3%;
   text-align: center;
   margin-top: 150px;
+  background-color: #e7e7e7;
 }
 
 .team-container {
   display: flex;
-  margin-left: 215px;
+  justify-content: center;
+  background-color: #e7e7e7;
+  padding-bottom: 200px;
+  gap: 50px;
+}
+
+.team-container>ul{
+  background-color: #ffffff;
+  padding-left: 0%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-container>ul:hover{
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.5);
 }
 
 .boxes {
@@ -230,6 +297,35 @@ ul {
 
 .soc-link {
   margin-left: 30px;
+}
+
+.first-box-logos{
+  display: flex;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+  padding-bottom: 20px;
+}
+
+.logos-part-first:hover{
+  content: url(./images/instagram-logo-pressed.webp);
+  cursor: pointer;
+}
+
+.logos-part-two:hover{
+  content: url(./images/twitter-logo-pressed.webp);
+  cursor: pointer;
+}
+
+.logos-part-three:hover{
+  content: url(./images/facbook-logo-pressed.webp);
+  cursor: pointer;
+}
+
+.logos-part-four:hover{
+  content: url(./images/linkedin-logo-pressed.webp);
+  cursor: pointer;
 }
 
 .soc-link-press {
@@ -307,21 +403,71 @@ ul {
   color: #ffffff;
 }
 
+.actions-first-div{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 200px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #ffffff;
+  padding: 1px;
+  padding-bottom: 94px;
+}
+
+.actions-first-div:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
 .label-one {
-  position: absolute;
-  margin-right: 800px;
-  margin-top: 225px;
+  position: relative;
+  bottom: 75px;
+}
+
+.actions-two-div{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 200px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 1px;
+  padding-bottom: 94px;
+}
+
+.actions-two-div:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.5);
 }
 
 .label-two {
-  position: absolute;
-  margin-top: 225px;
+  position: relative;
+  bottom: 75px;
+}
+
+.actions-three-div{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 200px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 1px;
+  padding-bottom: 94px;
+}
+
+.actions-three-div:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.5);
 }
 
 .label-three {
-  position: absolute;
-  margin-left: 800px;
-  margin-top: 225px;
+  position: relative;
+  bottom: 75px;
 }
 
 .contacts-button {
